@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: d518d59d46d14384cbe8de2440d29029
+timeCreated: 1520285579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barras
+    100002: distanceDimension1
+    100004: distanceDimension2
+    100006: distanceDimension3
+    100008: Estante_Carnes
+    100010: Estante_Lacteos
+    100012: Estantes
+    100014: Estantes 1
+    100016: Estantes1
+    100018: Estantes2
+    100020: Estantes3
+    100022: Estantes4
+    100024: Estantes_Lateral
+    100026: Estantes_Lateral1
+    100028: Estantes_Laterales
+    100030: Estantes_Refrigerados
+    100032: Frutas_y_Verduras
+    100034: Gabineta_Centrales
+    100036: Gabineta_Cuadrada
+    100038: Gabineta_Cuadrada1
+    100040: Gabineta_Cuadrada2
+    100042: Gabineta_Cuadrada3
+    100044: Gabineta_Lateral
+    100046: Gabineta_Lateral1
+    100048: Gabinetas_Laterales
+    100050: locator1
+    100052: locator2
+    100054: locator3
+    100056: locator4
+    100058: Messure
+    100060: //RootNode
+    100062: Recibidor
+    100064: SuperMarket
+    100066: SuperMarket_Grp
+    400000: Barras
+    400002: distanceDimension1
+    400004: distanceDimension2
+    400006: distanceDimension3
+    400008: Estante_Carnes
+    400010: Estante_Lacteos
+    400012: Estantes
+    400014: Estantes 1
+    400016: Estantes1
+    400018: Estantes2
+    400020: Estantes3
+    400022: Estantes4
+    400024: Estantes_Lateral
+    400026: Estantes_Lateral1
+    400028: Estantes_Laterales
+    400030: Estantes_Refrigerados
+    400032: Frutas_y_Verduras
+    400034: Gabineta_Centrales
+    400036: Gabineta_Cuadrada
+    400038: Gabineta_Cuadrada1
+    400040: Gabineta_Cuadrada2
+    400042: Gabineta_Cuadrada3
+    400044: Gabineta_Lateral
+    400046: Gabineta_Lateral1
+    400048: Gabinetas_Laterales
+    400050: locator1
+    400052: locator2
+    400054: locator3
+    400056: locator4
+    400058: Messure
+    400060: //RootNode
+    400062: Recibidor
+    400064: SuperMarket
+    400066: SuperMarket_Grp
+    2300000: Barras
+    2300002: Estante_Carnes
+    2300004: Estante_Lacteos
+    2300006: Estantes 1
+    2300008: Estantes1
+    2300010: Estantes2
+    2300012: Estantes3
+    2300014: Estantes4
+    2300016: Estantes_Lateral
+    2300018: Estantes_Lateral1
+    2300020: Gabineta_Cuadrada
+    2300022: Gabineta_Cuadrada1
+    2300024: Gabineta_Cuadrada2
+    2300026: Gabineta_Cuadrada3
+    2300028: Gabineta_Lateral
+    2300030: Gabineta_Lateral1
+    2300032: SuperMarket
+    3300000: Barras
+    3300002: Estante_Carnes
+    3300004: Estante_Lacteos
+    3300006: Estantes 1
+    3300008: Estantes1
+    3300010: Estantes2
+    3300012: Estantes3
+    3300014: Estantes4
+    3300016: Estantes_Lateral
+    3300018: Estantes_Lateral1
+    3300020: Gabineta_Cuadrada
+    3300022: Gabineta_Cuadrada1
+    3300024: Gabineta_Cuadrada2
+    3300026: Gabineta_Cuadrada3
+    3300028: Gabineta_Lateral
+    3300030: Gabineta_Lateral1
+    3300032: SuperMarket
+    4300000: SuperMarket
+    4300002: Gabineta_Lateral
+    4300004: Gabineta_Lateral1
+    4300006: Gabineta_Cuadrada
+    4300008: Gabineta_Cuadrada1
+    4300010: Gabineta_Cuadrada2
+    4300012: Gabineta_Cuadrada3
+    4300014: Estantes
+    4300016: Estantes1
+    4300018: Estantes2
+    4300020: Estantes3
+    4300022: Estantes4
+    4300024: Estantes_Lateral1
+    4300026: Estantes_Lateral
+    4300028: Estante_Lacteos
+    4300030: Estante_Carnes
+    4300032: Barras
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
