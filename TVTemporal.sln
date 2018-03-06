@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVTemporal", "TVTemporal.csproj", "{97773080-97EC-87D7-B979-E41F1E25BCB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVTemporal.Editor", "TVTemporal.Editor.csproj", "{EE0C0688-02CB-A52E-AFD5-582C5EA5898E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97773080-97EC-87D7-B979-E41F1E25BCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97773080-97EC-87D7-B979-E41F1E25BCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97773080-97EC-87D7-B979-E41F1E25BCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97773080-97EC-87D7-B979-E41F1E25BCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0C0688-02CB-A52E-AFD5-582C5EA5898E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0C0688-02CB-A52E-AFD5-582C5EA5898E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0C0688-02CB-A52E-AFD5-582C5EA5898E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0C0688-02CB-A52E-AFD5-582C5EA5898E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
