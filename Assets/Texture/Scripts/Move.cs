@@ -14,6 +14,6 @@ public class Move : MonoBehaviour {
 	void Update () {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
-        player.transform.Translate(new Vector3(-x,0,-y)*Time.deltaTime*speed);
+        player.transform.Translate(new Vector3(x,0,y)*Time.deltaTime*speed);
     }
 }
