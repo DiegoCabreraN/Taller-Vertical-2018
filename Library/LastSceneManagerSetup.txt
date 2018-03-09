@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Texture/Prefabs/sceneList.unity
+- path: Assets/Scenes/EscenaDennis2.unity
   isLoaded: 1
   isActive: 1
