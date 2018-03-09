@@ -8,15 +8,15 @@ public class ScoreTextScript : MonoBehaviour {
 
 	public Text ganastePerdiste;
 	public static int result = 2;
-	//private RawImage imageResult;
-	//public Texture winTexture;
-	//public Texture loseTexture;
+	Texture2D winTexture;
+	Texture2D loseTexture;
 
 	// Use this for initialization
 	void Start () {
-		
-		//imageResult = gameObject.GetComponent<RawImage>();
-		//SetGanastePerdiste(imageResult);
+		winTexture = Resources.Load ("Images/Winner") as Texture2D;
+		loseTexture = Resources.Load ("Images/GAME OVER") as Texture2D;
+		GameObject rawImage = GameObject.Find ("WinLoseImage");
+		SetGanastePerdiste (rawImage);
 
 	}
 	
@@ -24,28 +24,27 @@ public class ScoreTextScript : MonoBehaviour {
 	void Update () {
 		
 	}
-	void SetGanastePerdiste(RawImage imagenResultado)
+	void SetGanastePerdiste(GameObject rawImage)
 	{
 		
 		
 		if (result == 0) {
 			ganastePerdiste.text = "¡Ganaste!";
-			//imagenResultado.texture = winTexture;
+			rawImage.GetComponent<RawImage> ().texture = winTexture;
+
 
 		} else if (result == 1) {
 
 			ganastePerdiste.text = "¡Perdiste!";
-			//imagenResultado.texture = loseTexture;
+			rawImage.GetComponent<RawImage> ().texture = loseTexture;
 
 		} else if (result == 2) {
 
 			ganastePerdiste.fontSize = 20;
 			ganastePerdiste.text = "¡Se acabó el tiempo!";
-			//imagenResultado.texture = loseTexture;
-		}
+			rawImage.GetComponent<RawImage> ().texture = loseTexture;
 
-	}
-	void displayItemList(GameObject listOfItems){
+		}
 
 	}
 }
