@@ -19,7 +19,7 @@ public class MasterObject : MonoBehaviour {
     public GameObject Entrada;
     //[HideInInspector]
     public bool EventoSalida;
-    [Space (10)]
+    [Space(10)]
     [Header("Eventos")]
     public bool[] eventos;
     [Space(10)]
@@ -30,34 +30,47 @@ public class MasterObject : MonoBehaviour {
     [Header("Panalla Final")]
     public GameObject PantallaFinal;
 
+    private bool gameStarted;
+    public GameObject mainMenu;
+    public GameObject PantallaGameOver;
+    public GameObject startCage;
+
+    private void Start()
+    {
+        gameStarted = false;
+    }
 
     /////////////////////////// Metodo Update //////////////////////////
     void Update() {
 
-        //////////////////// Timer /////////////////////
-        Segundos -= Time.deltaTime;
-        if (Minutos > 0)
+        //////////////////// Timer /////////////////////}
+        if (gameStarted)
         {
-            if (Segundos > 0)
+            Segundos -= Time.deltaTime;
+            if (Minutos > 0)
             {
-                Contador.text = Minutos + ":" + (Mathf.Round(Segundos));
+                if (Segundos > 0)
+                {
+                    Contador.text = Minutos + ":" + (Mathf.Round(Segundos));
+                }
+                else
+                {
+                    Segundos += 60;
+                    Minutos -= 1;
+                }
             }
             else
             {
-                Segundos += 60;
-                Minutos -= 1;
-            }
-        }
-        else {
-            if (Segundos > 0)
-            {
-                Contador.text = Minutos + ":" + (Mathf.Round(Segundos));
-            }
-            else
-            {
-                Contador.text = "GAME OVER";
-            }
+                if (Segundos > 0)
+                {
+                    Contador.text = Minutos + ":" + (Mathf.Round(Segundos));
+                }
+                else
+                {
+                    PantallaGameOver.SetActive(true);
+                }
 
+            }
         }
         ////////////////////////////////////////////////
 
@@ -70,12 +83,20 @@ public class MasterObject : MonoBehaviour {
 
 
         //////////////////// End ///////////////////////
-        if (score >= limitscore) {
-            //PantallaFinal.SetActive(true);
+        if (gameObject.GetComponent<Cobrador>().checkEnd)
+        {
+            if (gameObject.GetComponent<Cobrador>().getResult())
+            {
+                PantallaFinal.SetActive(true);
+                PantallaFinal.GetComponent<AudioSource>().Play();
+            }
+            else
+            {
+                PantallaGameOver.SetActive(true);
+                PantallaGameOver.GetComponent<AudioSource>().Play();
+            }
         }
         ////////////////////////////////////////////////
-
-        this.EventoSalida = Entrada.GetComponent<store>().EventoSalida;
     }
     ////////////////////////////////////////////////////////////////////
 
@@ -87,4 +108,10 @@ public class MasterObject : MonoBehaviour {
     }
     ////////////////////////////////////////////////////////////////////
 
+    public void startGame()
+    {
+        gameStarted = true;
+        mainMenu.SetActive(false);
+        startCage.SetActive(false);
+    }
 }

@@ -11,25 +11,24 @@ public class Carrito : MonoBehaviour {
 	void Start () {
 		precioEnseñar = 0;
 		preciosCarrito=new List<int>();
-		StartCoroutine(checarCarrito());	
 	}
 
-	IEnumerator checarCarrito(){
+	public IEnumerator checarCarrito(){
 		while (true) {
 			yield return new WaitForSeconds (1);
 			preciosCarrito.Clear ();
 			precioEnseñar = 0;
             print("as");
 			Collider[] colisiones = Physics.OverlapBox (new Vector3(transform.position.x+.5f,transform.position.y,transform.position.z), new Vector3(1.04f,.5f,.48f));
-            for (int i=0;i<colisiones.Length;i++){
+            /*for (int i=0;i<colisiones.Length;i++){
 
 				if (colisiones[i].name!="Carrito") {
 					preciosCarrito.Add(colisiones [i].GetComponent<Fruta> ().precio);
 				}
-			}
+			}*/
 
 			cobrador.GetComponent<Cobrador> ().porCobrar = getPrecio ();
-			cobrador.GetComponent<Cobrador> ().cosasEnCarrito = listaCompleta(colisiones);
+			cobrador.GetComponent<Cobrador> ().updateRespuestaCorrecta(listaCompleta(colisiones));
 		}
 	}
 

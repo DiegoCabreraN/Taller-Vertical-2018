@@ -5,10 +5,6 @@ using UnityEngine;
 public class Begin : MonoBehaviour {
     public GameObject Menu;
     public GameObject Names;
-    
-    public void botonStart() {
-        Menu.SetActive(false);
-    }
 
     public void botonExit() {
         Application.Quit();

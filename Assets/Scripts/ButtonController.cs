@@ -5,15 +5,13 @@ using VRTK;
 
 public class ButtonController : VRTK_InteractableObject
 {
-
-	public GameObject hand;
 	private float totalMonedero;
 	public float totalCobrar;
 	public bool cobrar;
 
 	void Start(){
 		totalMonedero = 100;
-        cobrar = true;
+        cobrar = false;
 	}
 
     public override void StartUsing(VRTK_InteractUse usingObject)
@@ -21,6 +19,7 @@ public class ButtonController : VRTK_InteractableObject
         base.StartUsing(usingObject);
         transform.localScale += new Vector3(0, -0.04F, 0);
         Debug.Log("Has chocado el botón");
+        gameObject.GetComponent<ExtraController>().runThingy();
 
         float totalFinal = totalMonedero - totalCobrar;
     }

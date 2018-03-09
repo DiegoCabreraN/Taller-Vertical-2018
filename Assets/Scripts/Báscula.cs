@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Báscula : MonoBehaviour {
 
 	private List<int> pesoBascula;
 	private int pesoEnseñar;
+    public GameObject text;
 
 	void Start () {
 		pesoEnseñar = 0;
 		pesoBascula=new List<int>();
-		StartCoroutine(checarBascula());	
+		StartCoroutine(checarBascula());
 	}
 
 	IEnumerator checarBascula(){
@@ -26,10 +28,16 @@ public class Báscula : MonoBehaviour {
 
 			}
 			pesoEnseñar = getPeso ();
-		}
+            text.GetComponent<Text>().text = pesoEnseñar.ToString() + " gr";
+        }
 	}
 
-	int getPeso(){
+    private void Update()
+    {
+        StartCoroutine(checarBascula());
+    }
+
+    int getPeso(){
 		int pesoTotal = 0;
 		for (int i = 0; i < pesoBascula.Count; i++) {
 			pesoTotal += pesoBascula [i];

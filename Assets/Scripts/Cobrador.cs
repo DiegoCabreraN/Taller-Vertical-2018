@@ -11,22 +11,34 @@ public class Cobrador : MonoBehaviour {
 	public bool cosasEnCarrito;
 	private int totalMonedero;
     public GameObject boton;
+    public Carrito carrito;
+    public bool respuestaCorrecta;
+    public bool checkEnd;
 
 	void Start () {
 		porCobrar = 0;
 		totalMonedero = 100;
 		cosasEnCarrito = false;
-	}
+        checkEnd = false;
+    }
 
     void Update()
     {
-        if (cosasEnCarrito)
-        {
-            boton.GetComponent<ButtonController>().cobrar = true;
-        }
+    }
 
+    public void calculateTotalResults()
+    {
+        StartCoroutine(carrito.checarCarrito());
     }
 	
+    public bool getResult()
+    {
+        return respuestaCorrecta;
+    }
 
-
+    public void updateRespuestaCorrecta(bool result)
+    {
+        respuestaCorrecta = result;
+        checkEnd = true;
+    }
 }

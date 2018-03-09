@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 85a93567fec854d6284ae6ea67a13493
+timeCreated: 1520575220
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Ballon
+    100002: Ballon_apron
+    100004: Ballon_hat
+    100006: Ballon_lf_eye
+    100008: Ballon_rt_eye
+    100010: Ballon_sign
+    100012: Character_Geo_grp
+    100014: Gorrito_Ctl
+    100016: head_ctrl
+    100018: head_ctrl_Grp
+    100020: Head_jnt
+    100022: hip_ctrl
+    100024: hip_ctrl_Grp
+    100026: L_Arm_jnt
+    100028: L_Elbow_jnt
+    100030: L_Eye_jnt
+    100032: L_Hand_jnt
+    100034: L_Leg1_jnt
+    100036: L_Leg1A_jnt
+    100038: L_Leg1B_jnt
+    100040: L_Leg1C_jnt
+    100042: L_Leg2_jnt
+    100044: L_Leg2A_jnt
+    100046: L_Leg2B_jnt
+    100048: L_Leg2C_jnt
+    100050: Master_ctrl
+    100052: neck_ctrl
+    100054: neck_ctrl_Grp
+    100056: Neck_jnt
+    100058: //RootNode
+    100060: R_Arm_jnt
+    100062: R_Elbow_jnt
+    100064: R_Eye_jnt
+    100066: R_Hand_jnt
+    100068: R_Leg1_jnt
+    100070: R_Leg1A_jnt
+    100072: R_Leg1B_jnt
+    100074: R_Leg1C_jnt
+    100076: R_Leg2_jnt
+    100078: R_Leg2A_jnt
+    100080: R_Leg2B_jnt
+    100082: R_Leg2C_jnt
+    100084: Root_jnt
+    100086: Ropilla
+    100088: Skeleton_grp
+    400000: Ballon
+    400002: Ballon_apron
+    400004: Ballon_hat
+    400006: Ballon_lf_eye
+    400008: Ballon_rt_eye
+    400010: Ballon_sign
+    400012: Character_Geo_grp
+    400014: Gorrito_Ctl
+    400016: head_ctrl
+    400018: head_ctrl_Grp
+    400020: Head_jnt
+    400022: hip_ctrl
+    400024: hip_ctrl_Grp
+    400026: L_Arm_jnt
+    400028: L_Elbow_jnt
+    400030: L_Eye_jnt
+    400032: L_Hand_jnt
+    400034: L_Leg1_jnt
+    400036: L_Leg1A_jnt
+    400038: L_Leg1B_jnt
+    400040: L_Leg1C_jnt
+    400042: L_Leg2_jnt
+    400044: L_Leg2A_jnt
+    400046: L_Leg2B_jnt
+    400048: L_Leg2C_jnt
+    400050: Master_ctrl
+    400052: neck_ctrl
+    400054: neck_ctrl_Grp
+    400056: Neck_jnt
+    400058: //RootNode
+    400060: R_Arm_jnt
+    400062: R_Elbow_jnt
+    400064: R_Eye_jnt
+    400066: R_Hand_jnt
+    400068: R_Leg1_jnt
+    400070: R_Leg1A_jnt
+    400072: R_Leg1B_jnt
+    400074: R_Leg1C_jnt
+    400076: R_Leg2_jnt
+    400078: R_Leg2A_jnt
+    400080: R_Leg2B_jnt
+    400082: R_Leg2C_jnt
+    400084: Root_jnt
+    400086: Ropilla
+    400088: Skeleton_grp
+    2300000: Ballon_hat
+    3300000: Ballon_hat
+    4300000: Ballon_hat
+    4300002: Ballon
+    4300004: Ballon_rt_eye
+    4300006: Ballon_lf_eye
+    4300008: Ballon_sign
+    4300010: Ballon_apron
+    7400000: iddle
+    7400002: sad
+    7400004: happy
+    7400006: talk
+    9500000: //RootNode
+    13700000: Ballon
+    13700002: Ballon_apron
+    13700004: Ballon_lf_eye
+    13700006: Ballon_rt_eye
+    13700008: Ballon_sign
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: iddle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sad
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: happy
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: talk
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 322
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
