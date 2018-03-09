@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Calabaza
+  m_Controller: {fileID: 9100000, guid: 2497f0b251351429a9364284a4d51bab, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 204011d1325c148869ad7a9d9be19461, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 97852b090ca1e4a6d834ba8e15c6e2f1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37a464c0549d7404c99cdc21b09d5451, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b39bf76ec0c5b4888ab7c5134f525c97, type: 2}

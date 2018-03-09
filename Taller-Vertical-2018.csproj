@@ -285,6 +285,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\AnimatorBehaviour.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\AchievementType.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\AndroidPlatform.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\ApplicationOptions.cs" />
@@ -470,11 +471,12 @@
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarTouchController.cs" />
-    <Compile Include="Assets\Prefabs\_Scripts\AnimatorBehaviour.cs" />
     <Compile Include="Assets\Scenes\Begin.cs" />
     <Compile Include="Assets\Scripts\Báscula.cs" />
+    <Compile Include="Assets\Scripts\ButtonController.cs" />
     <Compile Include="Assets\Scripts\Carrito.cs" />
     <Compile Include="Assets\Scripts\Clickonposition.cs" />
+    <Compile Include="Assets\Scripts\Cobrador.cs" />
     <Compile Include="Assets\Scripts\Congelados.cs" />
     <Compile Include="Assets\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Scripts\Fruta.cs" />

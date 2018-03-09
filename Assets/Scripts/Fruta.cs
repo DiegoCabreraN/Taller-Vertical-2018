@@ -9,13 +9,14 @@ public class Fruta : MonoBehaviour {
 	public int precio;
 	public int A;
 	public int B;
-	public string tipoFruta;
+	public string tipo;
 
 	//local
 	public int peso;
 
 
 	private int pesoRandom(int A, int B){
+		tipo = "Fruta";
 		System.Random rnd = new System.Random();
 		int nRandom = rnd.Next(A, B);
 		return nRandom;

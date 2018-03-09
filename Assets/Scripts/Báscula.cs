@@ -20,15 +20,12 @@ public class Báscula : MonoBehaviour {
 			pesoEnseñar = 0;
 			Collider[] colisiones = Physics.OverlapBox (new Vector3(transform.position.x,transform.position.y-.1f,transform.position.z), new Vector3(.5f,.18f,.55f));
 			for(int i=0;i<colisiones.Length;i++){
-				if (colisiones[i].name!="Báscula") {
-                    print(colisiones[i].GetComponent<Fruta>().tipoFruta);
+				if (colisiones[i].name!="Bascula") {
                     pesoBascula.Add(colisiones[i].GetComponent<Fruta>().peso);
 				}
 
 			}
 			pesoEnseñar = getPeso ();
-            print("Peso báscula:");
-			print (pesoEnseñar);
 		}
 	}
 
