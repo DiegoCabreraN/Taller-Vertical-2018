@@ -285,6 +285,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Báscula.cs" />
+    <Compile Include="Assets\Carrito.cs" />
+    <Compile Include="Assets\Congelados.cs" />
+    <Compile Include="Assets\Fruta.cs" />
+>>>>>>> 2bd1bc4f4029392602ab0ecc8190a5b33ad67cb7
     <Compile Include="Assets\OculusPlatform\Scripts\AchievementType.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\AndroidPlatform.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\ApplicationOptions.cs" />
@@ -472,6 +479,7 @@
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarTouchController.cs" />
     <Compile Include="Assets\Prefabs\_Scripts\AnimatorBehaviour.cs" />
     <Compile Include="Assets\Scenes\Begin.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Báscula.cs" />
     <Compile Include="Assets\Scripts\Carrito.cs" />
     <Compile Include="Assets\Scripts\Clickonposition.cs" />
@@ -480,6 +488,9 @@
     <Compile Include="Assets\Scripts\Fruta.cs" />
     <Compile Include="Assets\Scripts\Giro.cs" />
     <Compile Include="Assets\Scripts\RenderScale.cs" />
+=======
+    <Compile Include="Assets\Scripts\Clickonposition.cs" />
+>>>>>>> 2bd1bc4f4029392602ab0ecc8190a5b33ad67cb7
     <Compile Include="Assets\Texture\Prefabs\itemlist.cs" />
     <Compile Include="Assets\Texture\Scripts\Acciones.cs" />
     <Compile Include="Assets\Texture\Scripts\MasterObject.cs" />
