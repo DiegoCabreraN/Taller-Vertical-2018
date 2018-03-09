@@ -71,7 +71,7 @@ public class MasterObject : MonoBehaviour {
 
         //////////////////// End ///////////////////////
         if (score >= limitscore) {
-            PantallaFinal.SetActive(true);
+            //PantallaFinal.SetActive(true);
         }
         ////////////////////////////////////////////////
 
