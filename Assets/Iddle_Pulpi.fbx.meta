@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 2c31fa7b750214f1abda181b70605c37
+timeCreated: 1520554167
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Ballon
+    100002: Ballon_apron
+    100004: Ballon_hat
+    100006: Ballon_lf_eye
+    100008: Ballon_rt_eye
+    100010: Ballon_sign
+    100012: Character_Geo_grp
+    100014: Gorrito_Ctl
+    100016: head_ctrl
+    100018: head_ctrl_Grp
+    100020: hip_ctrl
+    100022: hip_ctrl_Grp
+    100024: //RootNode
+    100026: Master_ctrl
+    100028: neck_ctrl
+    100030: neck_ctrl_Grp
+    400000: Ballon
+    400002: Ballon_apron
+    400004: Ballon_hat
+    400006: Ballon_lf_eye
+    400008: Ballon_rt_eye
+    400010: Ballon_sign
+    400012: Character_Geo_grp
+    400014: Gorrito_Ctl
+    400016: head_ctrl
+    400018: head_ctrl_Grp
+    400020: hip_ctrl
+    400022: hip_ctrl_Grp
+    400024: //RootNode
+    400026: Master_ctrl
+    400028: neck_ctrl
+    400030: neck_ctrl_Grp
+    2300000: Ballon
+    2300002: Ballon_apron
+    2300004: Ballon_hat
+    2300006: Ballon_lf_eye
+    2300008: Ballon_rt_eye
+    2300010: Ballon_sign
+    3300000: Ballon
+    3300002: Ballon_apron
+    3300004: Ballon_hat
+    3300006: Ballon_lf_eye
+    3300008: Ballon_rt_eye
+    3300010: Ballon_sign
+    4300000: Ballon_hat
+    4300002: Ballon
+    4300004: Ballon_apron
+    4300006: Ballon_sign
+    4300008: Ballon_rt_eye
+    4300010: Ballon_lf_eye
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
